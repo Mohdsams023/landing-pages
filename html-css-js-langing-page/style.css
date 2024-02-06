@@ -1,0 +1,822 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px 50px;
+
+}
+
+.logo {
+    left: 50px;
+}
+.logo img {
+    background-color: #ffffff;
+    width: 70px;
+    
+
+}
+
+.nav_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_items a {
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.active {
+    color: #49B649;
+}
+
+.botton {
+    background: linear-gradient(90deg, #07DA07 0%, #0B430B 91.46%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+
+.hero_section {
+    margin: 0 60px;
+    display: flex;
+    position: relative;
+    height: 850px;
+}
+
+.hero_section .info {
+    margin-top: 150px;
+    position: absolute;
+    width: 60%;
+    
+}
+
+.hero_section .info h4 {
+    font-family:  'Playfair Display', sans-serif;
+font-size: 45px;
+font-weight: 900;
+line-height: 72px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+
+.hero_section .info span {
+    color: #07DA07;
+    font-family:  'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+}
+.hero_section .info p {
+    width: 77%;
+    font-family: Nunito Sans;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 33px;
+   letter-spacing: 0em;
+   text-align: left;
+
+}
+
+.hero_section .info .link {
+    margin-top: 70px;
+    gap: 10px;
+}
+
+.hero_section .info a {
+  padding :  15px 40px 15px 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0.04em;
+text-align: left;
+margin : 10px;
+
+}
+
+.hero_section .images {
+    width: 60%;
+    right: 5px;
+    position: absolute;
+}
+
+.hero_section .images img {
+    width: 100%;
+}
+
+.info_section {
+    margin-left: 18%;
+    margin-right: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.info_section h3 {
+    font-family: Nunito Sans;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h3 span {
+    font-family: Playfair Display;
+    font-style : italic ;
+    color: #07DA07;
+}
+
+.info_section p {
+   
+    font-family: Nunito Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.service_section {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.service_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_items img {
+    width: 100px;
+}
+
+.service_items h5 {
+    font-family: Nunito Sans;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 550;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.service_items p {
+    width: 70%;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;   
+}
+
+.main_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/unsplash_OCrPJce6GPk\ \(1\).png');
+    object-fit: cover;
+    overflow-x:hidden;
+    background-repeat: no-repeat;
+   
+    height: 750px;
+    background-size: contain;
+}
+
+.section_container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0  40px 100px;
+    gap: 100px;
+   
+}
+
+.heading_section {
+    margin-top: 80px;
+    width: 47%;
+}
+.heading_section h2 {
+    font-family: Nunito Sans;
+font-size: 54px;
+font-weight: 800;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+.content_section {
+    width: 35%;
+   
+
+}
+
+.content_section p {
+    font-family: Nunito Sans;
+font-size: 17px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-image: url('images/unsplash_1FxMET2U5dU.png');
+    object-fit: cover;
+    overflow-x:hidden;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items:start;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    height: auto;
+}
+
+ .brands {
+    width: 150px;
+    
+}
+.social_icons {
+    margin-top: 20px;
+}
+
+.container p {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+
+}
+
+ li {
+    line-height: 30px;
+    
+}
+
+.contact ul {
+    list-style: none;
+    
+}
+
+.container span {
+    font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 800;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+color: #49B649;
+
+}
+
+.search_bar h4 {
+    font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin: 20px;
+}
+.search_bar span {
+    font-family: Nunito;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #49B649;
+}
+
+.search_bar input {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+button {
+    position: absolute;
+    right: 100px;
+    margin-top: 7px;
+    width: 115px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #49B649;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.copyrights {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .nav_items a {
+        color: #ffffff;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+
+
+    .hero_section {
+        margin: 0 60px;
+        display: flex;
+        position: relative;
+        height: 600px;
+    }
+    
+    .hero_section .info {
+        margin-top: 40px;
+        position: absolute;
+        width: 50%;
+        
+    }
+    
+    .hero_section .info h4 {
+        font-family:  'Playfair Display', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+    }
+    
+    .hero_section .info span {
+        color: #07DA07;
+        font-family:  'Nunito Sans', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+    .hero_section .info p {
+        width: 60%;
+        font-family: Nunito Sans;
+       font-size: 10px;
+       font-weight: 700;
+       line-height: 33px;
+       letter-spacing: 0em;
+       text-align: left;
+    
+    }
+    
+    .hero_section .info .link {
+        margin-top: 20px;
+        gap: 10px;
+        font-size: 10px;
+    }
+    
+    .hero_section .info a {
+      padding :  5px 10px 10px 20px;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    margin : 10px;
+    
+    }
+    
+    .hero_section .images {
+        width: 50%;
+        right: 5px;
+        position: absolute;
+    }
+    
+    .hero_section .images img {
+        width: 100%;
+    }
+
+    .main_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/unsplash_OCrPJce6GPk\ \(1\).png');
+        object-fit: cover;
+        overflow-x:hidden;
+        background-repeat: no-repeat;
+        height: 550px;
+        background-size: contain;
+    }
+    
+    .section_container {
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0  30px 40px;
+        gap: 100px;
+       
+    }
+    
+    .heading_section {
+        margin-top: 40px;
+        width: 50%;
+    }
+    .heading_section h2 {
+        font-family: Nunito Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    
+    
+    
+    .content_section {
+        width: 50%;
+       
+
+    }
+    
+    .content_section p {
+        font-family: Nunito Sans;
+    font-size: 13px;
+    font-weight: 550;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+  }
+
+  /* CSS for screens with a max-width of 600px or less */
+@media (max-width: 600px) {
+    .nav_items a {
+        display: none;
+        color: #ffffff;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+
+    /* Styling for the hero section on smaller screens */
+    .hero_section {
+        margin: 0 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Styling for the info section within the hero */
+    .hero_section .info {
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    /* Styling for the heading within the info section */
+    .hero_section .info h4 {
+        font-family: 'Playfair Display', sans-serif;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    /* Styling for the span element within the info section */
+    .hero_section .info span {
+        color: #07DA07;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    /* Styling for the paragraphs within the info section */
+    .hero_section .info p {
+        width: 100%;
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    /* Styling for the link container within the info section */
+    .hero_section .info .link {
+        margin-top: 20px;
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    /* Styling for links within the link container */
+    .hero_section .info a {
+        padding: 5px 10px 10px 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: Nunito Sans;
+        font-size: 15px;
+        font-weight: 800;
+        line-height: 33px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        margin: 10px;
+    }
+
+    /* Styling for the images section within the hero section */
+    .hero_section .images {
+        margin-top: 20px;
+        width: 100%;
+        right: 5px;
+        position: relative;
+    }
+
+    /* Styling for images within the images section */
+    .hero_section .images img {
+        width: 100%;
+    
+    }
+
+    .info_section {
+        margin-top: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    
+    .info_section h3 {
+        font-family: Nunito Sans;
+        font-size: 27px;
+        font-weight: 900;
+    }
+    
+    h3 span {
+        font-family: Playfair Display;
+        font-style : italic ;
+        color: #07DA07;
+    }
+    
+    .info_section p {
+       
+        font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+
+
+
+
+    .service_section {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .service_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .service_items img {
+        width: 50px;
+    }
+    
+    .service_items h5 {
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 550;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .service_items p {
+        width: 70%;
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;   
+    }
+
+
+    .main_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('images/unsplash_OCrPJce6GPk (1).png');
+        object-fit: cover;
+        overflow-x: hidden;
+        background-repeat: repeat;
+        height: 550px;
+        background-size: contain;
+    }
+
+    .section_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 30px 40px;
+        gap: 20px;
+    }
+
+    .heading_section {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .heading_section h2 {
+        font-family: Nunito Sans;
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .content_section {
+        width: 100%;
+    }
+
+    .content_section p {
+        font-family: Nunito Sans;
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    footer {
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        background-image: url('images/unsplash_1FxMET2U5dU.png');
+        object-fit: cover;
+        overflow-x:hidden;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    
+    .container {
+        display: flex;
+        align-items:start;
+        justify-content: space-around;
+        margin-top: 70px;
+        height: auto;
+        gap: 10px;
+    }
+
+    .brands {
+        width: 30%;
+    }
+    
+    .social_icons {
+        margin-top: 20px;
+    }
+    .about , .contact {
+        width: 20%;
+    }
+    
+    .container p {
+        font-family: Nunito Sans;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 10px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 10px;
+    
+    }
+    
+     li {
+        line-height: 20px;
+        font-size: 10px;
+        
+    }
+    
+    .contact ul {
+        list-style: none;
+        
+    }
+    
+    .container span {
+        font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #49B649;
+    
+    }
+    
+    .search_bar h4 {
+        font-family: Nunito Sans;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+    }
+    .search_bar span {
+        font-family: Nunito;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #49B649;
+    }
+    
+    .search_bar input {
+        width: 180px;
+        height: 30px;
+        font-family:  Nunito ;
+        position: relative;
+        border-radius: 8px;
+        border: 2px solid white;
+    }
+    button {
+        position: absolute;
+        right: 12px;
+        margin-top: 5px;
+        width: 80px;
+        height: 22px;
+        border-radius: 8px;
+        background-color: #49B649;
+        border: 2px solid white;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    .copyrights {
+        margin-bottom: 20px;
+    }
+}
